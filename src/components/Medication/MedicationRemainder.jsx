@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./MedicationReminder.css";
+import "./MedicationRemainder.css";
 function MedicationReminder() {
   const [medications, setMedications] = useState([]);
   const [medicationName, setMedicationName] = useState('');
