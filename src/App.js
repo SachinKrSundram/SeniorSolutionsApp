@@ -1,32 +1,22 @@
 import React from 'react';
-import './styles.css';
+import './App.css';
+import BloodTest from './components/BloodTest/BloodTestRemainder';
+import Medication from './components/Medication/MedicationRemainder';
+import MedicalHistory from './components/History/MedicalHistory';
+import SeniorSocialMedia from './components/SocialMedia/SeniorSocialMedia';
+import VirtualAssistant from './components/Virtual/VirtualAssistant';
 
-function HomePage() {
+function App() {
   return (
-    <div className="container">
-      <h1>Welcome to our senior solutions app</h1>
-      <div className="solution">
-        <h2>Medication Reminder</h2>
-        <button>Learn More</button>
-      </div>
-      <div className="solution">
-        <h2>Blood Test Reminder</h2>
-        <button>Learn More</button>
-      </div>
-      <div className="solution">
-        <h2>Senior-Friendly Social Media Platform</h2>
-        <button>Learn More</button>
-      </div>
-      <div className="solution">
-        <h2>Personal Emergency Response System</h2>
-        <button>Learn More</button>
-      </div>
-      <div className="solution">
-        <h2>Virtual Personal Assistant</h2>
-        <button>Learn More</button>
-      </div>
+    <div>
+      <h1>Senior Health Care</h1>
+      <BloodTestReminder />
+      <MedicationReminder />
+      <MedicalHistory />
+      <SeniorSocialMedia />
+      <VirtualAssistant />
     </div>
   );
 }
 
-export default HomePage;
+export default App;
