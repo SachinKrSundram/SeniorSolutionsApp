@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -8,6 +9,9 @@ h1 {
     margin: 0 auto;
     max-width: 800px;
     padding: 1rem;
+    border: #005ea3;
+    border-style: inherit;
+    border-width: auto;
   }
   
   form {
@@ -33,7 +37,7 @@ h1 {
   
   button[type='submit'] {
     padding: 0.5rem;
-    background-color: #0077cc;
+    background-color: #506c81;
     color: #fff;
     border: none;
     border-radius: 0.25rem;
@@ -43,7 +47,7 @@ h1 {
   }
   
   button[type='submit']:hover {
-    background-color: #005ea3;
+    background-color: #1d68c3;
   }
   
   p {

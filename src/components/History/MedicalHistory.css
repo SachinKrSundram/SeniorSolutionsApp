@@ -24,10 +24,11 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: vertical;
+    background-color: b9cee3;
   }
   
   button[type="submit"] {
-    background-color: #007bff;
+    background-color: #506c81;
     color: #fff;
     padding: 10px;
     border: none;
@@ -37,13 +38,13 @@
   }
   
   button[type="submit"]:hover {
-    background-color: #0069d9;
+    background-color: #1d68c3;
   }
   
   .history-item {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #f7f7f7;
+    background-color: #b9cee3;
     border: 1px solid #ccc;
     border-radius: 5px;
   }

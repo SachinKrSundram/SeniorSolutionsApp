@@ -22,10 +22,11 @@
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
+    background-color: #b9cee3;
   }
   
   button[type="submit"] {
-    background-color: #0077cc;
+    background-color: #1d68c3;
     color: #fff;
     padding: 10px 20px;
     border: none;

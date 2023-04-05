@@ -18,14 +18,14 @@ h1 {
     width: 100%;
     padding: 0.5rem;
     font-size: 1rem;
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    background-color: #b9cee3;
+    
   }
   
   button {
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    background-color: #007bff;
+    background-color: #506c81;
     color: #fff;
     border-radius: 4px;
     border: none;
@@ -33,7 +33,7 @@ h1 {
   }
   
   button:hover {
-    background-color: #0062cc;
+    background-color: #1d68c3;
   }
   
   h2 {

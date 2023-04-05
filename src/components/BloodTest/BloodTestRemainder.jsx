@@ -35,15 +35,15 @@ function BloodTestReminder() {
             value={testType}
             onChange={(event) => setTestType(event.target.value)}
           />
-        </label>
-        <label>
+        {/* </label> */}
+        {/* <label> */}
           Test Date:
           <input
             type="date"
             value={testDate}
             onChange={(event) => setTestDate(event.target.value)}
           />
-        </label>
+        {/* </label> */}
         <label>
           Clinic Name:
           <input
@@ -51,24 +51,25 @@ function BloodTestReminder() {
             value={clinicName}
             onChange={(event) => setClinicName(event.target.value)}
           />
-        </label>
-        <label>
+        {/* </label> */}
+        {/* <label> */}
           Clinic Location:
           <input
             type="text"
             value={clinicLocation}
             onChange={(event) => setClinicLocation(event.target.value)}
           />
+          </label>
         </label>
         <button type="submit">Schedule Blood Test</button>
       </form>
       <h2>Blood Test Schedule</h2>
       {bloodTests.map((bloodTest, index) => (
         <div key={index}>
-          <p>{bloodTest.testType}</p>
-          <p>{bloodTest.testDate}</p>
-          <p>{bloodTest.clinicName}</p>
-          <p>{bloodTest.clinicLocation}</p>
+          <p>Test Type:- {bloodTest.testType}</p>
+          <p>Test Date:- {bloodTest.testDate}</p>
+          <p>Clini Name:- {bloodTest.clinicName}</p>
+          <p>Clinic Location:- {bloodTest.clinicLocation}</p>
         </div>
       ))}
     </div>

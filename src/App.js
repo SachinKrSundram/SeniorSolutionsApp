@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Router>
       <div className="container">
-        <h1>Welcome to our senior solutions app</h1>
+        <h1>Welcome to Our Senior Solutions App</h1>
         <Routes>
           <Route path="/MedicationRemainder" element={<MedicationReminder />} />
           <Route path="/BloodTestRemainder" element={<BloodTestReminder />} />
@@ -25,22 +25,22 @@ export default function App() {
           <Route path="/VirtualAssistant" element={<VirtualAssistant />} />
         </Routes>
         <div className="solution">
-          <h2>Medication Reminder App</h2>
+          <h2>Medication Reminder</h2>
           <p>
             A mobile app that can remind seniors to take their medicines on
             time.
           </p>
-          <Link to={"/MedicationRemainder"}>Open...</Link>
+          <button><Link to={"/MedicationRemainder"}>Open...</Link></button>
         </div>
         <div className="solution">
           <h2>Blood Test Reminder</h2>
           <p>An app that reminds seniors to schedule regular blood tests.</p>
-          <Link to={"/BloodTestRemainder"}>Open...</Link>
+          <button><Link to={"/BloodTestRemainder"}>Open...</Link></button>
         </div>
         <div className="solution">
           <h2>Senior-Friendly Social Media Platform</h2>
           <p>A social media platform designed specifically for older adults.</p>
-          <Link to={"/SeniorSocialMedia"}>Open...</Link>
+          <button><Link to={"/SeniorSocialMedia"}>Open...</Link></button>
         </div>
         <div className="solution">
           <h2>Personal Emergency Response System</h2>
@@ -48,7 +48,7 @@ export default function App() {
             A wearable device or mobile app that can alert emergency services
             and loved ones.
           </p>
-          <Link to={"/MedicalHistory"}>Open...</Link>
+          <button><Link to={"/MedicalHistory"}>Open...</Link></button>
         </div>
         <div className="solution">
           <h2>Virtual Personal Assistant</h2>
@@ -56,7 +56,7 @@ export default function App() {
             An AI-powered virtual assistant that can help seniors with daily
             tasks.
           </p>
-          <Link to={"/VirtualAssistant"}>Open...</Link>
+          <button><Link to={"/VirtualAssistant"}>Open...</Link></button>
         </div>
       </div>
     </Router>

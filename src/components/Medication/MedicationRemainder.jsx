@@ -26,7 +26,7 @@ function MedicationReminder() {
 
   return (
     <div>
-      <h1>Medication Reminder App</h1>
+      <h1>Medication Reminder</h1>
       <form onSubmit={handleMedicationSubmit}>
         <label>
           Medication Name:
@@ -35,24 +35,24 @@ function MedicationReminder() {
             value={medicationName}
             onChange={(event) => setMedicationName(event.target.value)}
           />
-        </label>
-        <label>
+        {/* </label> */}
+        {/* <label> */}
           Dosage:
           <input
             type="text"
             value={dosage}
             onChange={(event) => setDosage(event.target.value)}
           />
-        </label>
-        <label>
+        {/* </label> */}
+        {/* <label> */}
           Instructions:
           <input
             type="text"
             value={instructions}
             onChange={(event) => setInstructions(event.target.value)}
           />
-        </label>
-        <label>
+        {/* </label> */}
+        {/* <label> */}
           Reminder Time:
           <input
             type="time"
@@ -65,10 +65,10 @@ function MedicationReminder() {
       <h2>Medication Schedule</h2>
       {medications.map((medication, index) => (
         <div key={index}>
-          <p>{medication.medicationName}</p>
-          <p>{medication.dosage}</p>
-          <p>{medication.instructions}</p>
-          <p>{medication.reminderTime}</p>
+          <p>Name:- {medication.medicationName}</p>
+          <p>Dosage:- {medication.dosage}Dosage</p>
+          <p>Instructions:- {medication.instructions}</p>
+          <p>ReminderTime:- {medication.reminderTime}</p>
         </div>
       ))}
     </div>

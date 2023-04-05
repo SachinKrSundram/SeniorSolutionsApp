@@ -1,5 +1,5 @@
-import "./VirtualAssistant.css";
 import React, { useState } from 'react';
+import "./VirtualAssistant.css";
 
 function VirtualAssistant() {
   const [assistantResponse, setAssistantResponse] = useState('');
@@ -7,7 +7,7 @@ function VirtualAssistant() {
   const handleAssistantRequest = () => {
     const accessToken = 'YOUR_GOOGLE_ASSISTANT_ACCESS_TOKEN';
 
-    const apiEndpoint = 'https://developers.google.com/assistant/sdk/reference/rpc#google.assistant.devices.v1alpha2.devicesplatformservice';
+    const apiEndpoint = 'https://https://actions.googleapis.com/v2.google.com/assistant/sdk/reference/rpc#google.assistant.devices.v1alpha2.devicesplatformservice';
     const url = `${apiEndpoint}/conversations:execute`;
     
     const request = {
