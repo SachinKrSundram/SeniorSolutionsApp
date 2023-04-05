@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route,Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route,Routes, Link } from 'react-router-dom';
 
 import './HomePage.css';
 import MedicationReminder from '../components/Medication/MedicationRemainder';
