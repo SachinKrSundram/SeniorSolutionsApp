@@ -8,7 +8,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <HomePage/>
-    {/* <App /> */}
+    {/* <HomePage/> */}
+    <App />
   </StrictMode>
 );
