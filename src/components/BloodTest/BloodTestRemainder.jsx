@@ -26,7 +26,7 @@ function BloodTestReminder() {
 
   return (
     <div>
-      <h1>Blood Test Reminder App</h1>
+      <h1>Blood Test Reminder</h1>
       <form onSubmit={handleBloodTestSubmit}>
         <label>
           Test Type:
