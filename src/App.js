@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import BloodTest from './components/BloodTest/BloodTestRemainder';
 import Medication from './components/Medication/MedicationRemainder';
@@ -6,17 +8,21 @@ import MedicalHistory from './components/History/MedicalHistory';
 import SeniorSocialMedia from './components/SocialMedia/SeniorSocialMedia';
 import VirtualAssistant from './components/Virtual/VirtualAssistant';
 
-function App() {
+
+export default function App() {
   return (
-    <div>
-      <h1>Senior Health Care</h1>
-      <BloodTestReminder />
-      <MedicationReminder />
-      <MedicalHistory />
-      <SeniorSocialMedia />
-      <VirtualAssistant />
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage/>}>
+      <Route path="MedicationRemainder" element={<MedicationReminder />} />
+      <Route path="BloodTestRemainder" element={<BloodTestReminder />} />
+      <Route path="MedicalHistory" element={<MedicalHistory />} />
+      <Route path="SeniorSocialMedia" element={<SeniorSocialMedia/>}/>
+      <Route path="VirtualAssistant" element={<VirtualAssistant/>}/>
+    </Route>
+    </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
