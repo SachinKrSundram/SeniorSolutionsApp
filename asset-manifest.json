@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SachinKrSundram/SeniorSolutionsApp/static/css/main.0cb0def1.css",
+    "main.js": "/SachinKrSundram/SeniorSolutionsApp/static/js/main.b7d58398.js",
+    "index.html": "/SachinKrSundram/SeniorSolutionsApp/index.html",
+    "main.0cb0def1.css.map": "/SachinKrSundram/SeniorSolutionsApp/static/css/main.0cb0def1.css.map",
+    "main.b7d58398.js.map": "/SachinKrSundram/SeniorSolutionsApp/static/js/main.b7d58398.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cb0def1.css",
+    "static/js/main.b7d58398.js"
+  ]
+}
