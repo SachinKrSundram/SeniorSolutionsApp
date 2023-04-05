@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SeniorSolutionsApp/static/css/main.1c71db0f.css",
-    "main.js": "/SeniorSolutionsApp/static/js/main.a7e526ca.js",
+    "main.js": "/SeniorSolutionsApp/static/js/main.f0dcfd11.js",
     "index.html": "/SeniorSolutionsApp/index.html",
     "main.1c71db0f.css.map": "/SeniorSolutionsApp/static/css/main.1c71db0f.css.map",
-    "main.a7e526ca.js.map": "/SeniorSolutionsApp/static/js/main.a7e526ca.js.map"
+    "main.f0dcfd11.js.map": "/SeniorSolutionsApp/static/js/main.f0dcfd11.js.map"
   },
   "entrypoints": [
     "static/css/main.1c71db0f.css",
-    "static/js/main.a7e526ca.js"
+    "static/js/main.f0dcfd11.js"
   ]
 }
