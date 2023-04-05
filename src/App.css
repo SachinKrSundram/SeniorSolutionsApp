@@ -27,9 +27,10 @@ body {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
+  /* text-fill-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 5s linear infinite;
+  animation: textclip 3s linear infinite;
   display: inline-block;
 }
 
@@ -41,7 +42,7 @@ body {
 
 h1 {
   text-decoration: underline;
-  color: #2c5476;
+  color: #123757;
   border: #283e51;
   border-style: inherit;
   border-color: #283e51;
@@ -50,7 +51,7 @@ h1 {
 } 
 h2 {
   text-align: center;
-  color: #1a68b6;
+  color: #606ab6;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   font-family: 'Oswald', sans-serif;
 
@@ -70,7 +71,7 @@ p {
 }
 
 button {
-  background-color: #3e587b; /* Replace with your preferred colors */
+  background-color: #22e4cd; /* Replace with your preferred colors */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -81,7 +82,7 @@ button {
 }
 
 button:hover {
-  background-color: #526ec2; /* Replace with your preferred colors */
+  background-color: #2cfebb; /* Replace with your preferred colors */
   transform: scale(1.2);
 }
 

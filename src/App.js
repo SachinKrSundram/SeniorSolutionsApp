@@ -3,22 +3,19 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 
-import MedicationReminder from './components/Medication/MedicationRemainder';
-import BloodTestReminder from './components/BloodTest/BloodTestRemainder';
-import MedicalHistory from './components/History/MedicalHistory';
-import SeniorSocialMedia from './components/SocialMedia/SeniorSocialMedia';
-import VirtualAssistant from './components/Virtual/VirtualAssistant';
+
+import { MedicationRemainder, BloodTestRemainder, MedicalHistory, SeniorSocialMedia, VirtualAssistant } from './components';
 import ScrollToTop from './components/scrollToTop';
 
 export default function App() {
   return (
     <Router>
-      <ScrollToTop/>
+      <ScrollToTop />
       <div className="container">
         <h1 className='heading'>Welcome to Our Senior Solutions App</h1>
         <Routes>
-          <Route path="/MedicationRemainder" element={<MedicationReminder />} />
-          <Route path="/BloodTestRemainder" element={<BloodTestReminder />} />
+          <Route path="/MedicationRemainder" element={<MedicationRemainder />} />
+          <Route path="/BloodTestRemainder" element={<BloodTestRemainder />} />
 
           <Route path="/MedicalHistory" element={<MedicalHistory />} />
 
@@ -27,7 +24,7 @@ export default function App() {
           <Route path="/VirtualAssistant" element={<VirtualAssistant />} />
         </Routes>
         <div className="solution">
-          <h2 className='heading2'>Medication Reminder</h2>
+          <h2>Medication Reminder</h2>
           <p>
             A mobile app that can remind seniors to take their medicines on
             time.
@@ -35,7 +32,7 @@ export default function App() {
           <button><Link to={"/MedicationRemainder"}>Open...</Link></button>
         </div>
         <div className="solution">
-          <h2 className='heading2'>Blood Test Reminder</h2>
+          <h2>Blood Test Reminder</h2>
           <p>An app that reminds seniors to schedule regular blood tests.</p>
           <button><Link to={"/BloodTestRemainder"}>Open...</Link></button>
         </div>
@@ -45,7 +42,7 @@ export default function App() {
           <button><Link to={"/SeniorSocialMedia"}>Open...</Link></button>
         </div>
         <div className="solution">
-          <h2 className='heading2'>Personal Emergency Response System</h2>
+          <h2>Personal Emergency Response System</h2>
           <p>
             A wearable device or mobile app that can alert emergency services
             and loved ones.
@@ -53,7 +50,7 @@ export default function App() {
           <button><Link to={"/MedicalHistory"}>Open...</Link></button>
         </div>
         <div className="solution">
-          <h2 className='heading2'>Virtual Personal Assistant</h2>
+          <h2>Virtual Personal Assistant</h2>
           <p>
             An AI-powered virtual assistant that can help seniors with daily
             tasks.
