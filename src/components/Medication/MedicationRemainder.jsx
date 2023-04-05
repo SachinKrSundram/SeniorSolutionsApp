@@ -26,7 +26,7 @@ function MedicationReminder() {
 
   return (
     <div>
-      <h1>Medication Reminder</h1>
+      <h1>Medication Remainder</h1>
       <form onSubmit={handleMedicationSubmit}>
         <label>
           Medication Name:
