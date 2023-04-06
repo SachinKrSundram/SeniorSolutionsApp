@@ -7,16 +7,16 @@ Live on -   https://sachinkrsundram.github.io/SeniorSolutionsApp/
 
 #Features
 
-Medicine Reminder
-Blood Test Remainder
-Medical History
-Senior Social Media Plateform
+Medicine Reminder,
+Blood Test Remainder,
+Medical History,
+Senior Social Media Plateform,
 Virtual Assistant
 
 
 # Technologies Used
 
-React.js
+React.js,
 Google Assitant API
 
 
@@ -24,8 +24,8 @@ Google Assitant API
 
 #Home Screen
 
-![Screenshot (118)](https://user-images.githubusercontent.com/99536825/230072229-fcfa6f5f-2179-4a66-8774-ee4b115a31fe.png)
-![Screenshot (123)](https://user-images.githubusercontent.com/99536825/230075026-8a3e6439-8296-4e29-92dc-b7067d6522b1.png)
+![Screenshot (134)](https://user-images.githubusercontent.com/99536825/230403146-5e6ee30e-fc93-4952-83e7-405fee894ef0.png)
+
 
 
 
@@ -33,33 +33,39 @@ Google Assitant API
 
 #Medication Remainder 
 
-![Screenshot (120)](https://user-images.githubusercontent.com/99536825/230072358-9603f0a7-3735-423a-88dc-ff30d278b649.png)
-![Screenshot (125)](https://user-images.githubusercontent.com/99536825/230074769-3fb7cc8d-5460-4df7-9a43-5bbf48b342e5.png)
+![Screenshot (135)](https://user-images.githubusercontent.com/99536825/230403350-66740160-052a-43dc-8447-11d462ec11c4.png)
+![Screenshot (137)](https://user-images.githubusercontent.com/99536825/230403561-588f72cf-c48f-48bc-aae6-8c826cc60df3.png)
+
 
 
 
 #Blood Test Remainder
 
-![Screenshot (126)](https://user-images.githubusercontent.com/99536825/230072585-9021576b-3ce1-43d9-91a8-51ddfbe376ae.png)
-![Screenshot (127)](https://user-images.githubusercontent.com/99536825/230072636-f7c6402a-7268-427e-a0ad-efc827765322.png)
+![Screenshot (136)](https://user-images.githubusercontent.com/99536825/230403445-6355a9c6-0196-48e6-9a08-2e3b47a9f0e3.png)
+![Screenshot (138)](https://user-images.githubusercontent.com/99536825/230403488-3b851673-6b58-4e6d-b101-81602c14384b.png)
+
 
 
 #Medical History
 
-![Screenshot (131)](https://user-images.githubusercontent.com/99536825/230075398-1f6a987e-8b5f-4d14-890e-db389476f136.png)
+![Screenshot (141)](https://user-images.githubusercontent.com/99536825/230404042-4a92df32-d25f-491b-944b-d71ee82004ec.png)
+![Screenshot (142)](https://user-images.githubusercontent.com/99536825/230404088-cede5710-475c-4513-8ddf-4c3983fc6292.png)
+
+
 
 
 
 #Senior-Friendly Social Media Plateform
 
-![Screenshot (128)](https://user-images.githubusercontent.com/99536825/230075473-b3208176-cbcf-47ad-921d-50c382b4e195.png)
-![Screenshot (129)](https://user-images.githubusercontent.com/99536825/230075497-9c4b45e8-5bd4-4cf3-8370-64a70ea984d1.png)
+![Screenshot (139)](https://user-images.githubusercontent.com/99536825/230403761-305628db-16f4-490d-82d4-59758f643c56.png)
+![Screenshot (140)](https://user-images.githubusercontent.com/99536825/230403807-0d9056c5-50c5-4858-adf1-4a17951cdd70.png)
 
 
 
 #Virtual Assistent
 
-![Screenshot (130)](https://user-images.githubusercontent.com/99536825/230075562-b188d796-61d0-49ce-9436-24b3727f1861.png)
+![Screenshot (143)](https://user-images.githubusercontent.com/99536825/230404191-a22dff79-741b-43ab-a88a-822f14e2f0cc.png)
+
 
 
 #Author
