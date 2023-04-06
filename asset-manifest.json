@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/SeniorSolutionsApp/static/css/main.fcc711d1.css",
-    "main.js": "/SeniorSolutionsApp/static/js/main.f70cb552.js",
+    "main.css": "/SeniorSolutionsApp/static/css/main.1c71db0f.css",
+    "main.js": "/SeniorSolutionsApp/static/js/main.f0dcfd11.js",
     "index.html": "/SeniorSolutionsApp/index.html",
-    "main.fcc711d1.css.map": "/SeniorSolutionsApp/static/css/main.fcc711d1.css.map",
-    "main.f70cb552.js.map": "/SeniorSolutionsApp/static/js/main.f70cb552.js.map"
+    "main.1c71db0f.css.map": "/SeniorSolutionsApp/static/css/main.1c71db0f.css.map",
+    "main.f0dcfd11.js.map": "/SeniorSolutionsApp/static/js/main.f0dcfd11.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcc711d1.css",
-    "static/js/main.f70cb552.js"
+    "static/css/main.1c71db0f.css",
+    "static/js/main.f0dcfd11.js"
   ]
 }
