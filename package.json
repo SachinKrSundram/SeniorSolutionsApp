@@ -38,5 +38,14 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "author": "SachinKrSundram",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachinKrSundram/SeniorSolutionsApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SachinKrSundram/SeniorSolutionsApp/issues"
+  }
 }
